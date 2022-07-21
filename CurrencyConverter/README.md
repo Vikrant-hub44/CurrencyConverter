@@ -1,27 +1,19 @@
-# CurrencyConverter
+ ## Overview
+Exchange foreign currencies for Canadian dollars and Canadian dollars for other currencies.
+Following international currencies can be converted: USD, EUR, JPY, GBP, AUD, CHF, CNY, HKD, MXN, and INR to CAD and vice-versa.
+Show the output value, the conversion rate, and the conversion date.
 
+## Framework
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
-## Development server
+## Functionality 
+1. Exchange foreign currencies for Canadian dollars and Canadian dollars for other currencies.
+2. To convert foreign currencies to Canadian dollars, we use the Bank of Canada's published daily average exchange rate. For reference: https://www.bankofcanada.ca/valet/docs
+3. It allows the user to choose the amount of money to convert.
+4. It allows users to select the currency they want to convert to or from using a currency code.
+5. Allow the user to specify the conversion's date if they choose to.
+6. Show the output value, the conversion rate, and the conversion date.
+7. Display the result value with a four-place precision.
+8. Following international currencies can be converted: USD, EUR, JPY, GBP, AUD, CHF, CNY, HKD, MXN, and INR to CAD and vice-versa.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
